@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+
+    <center><h1>JAVASCRIPT CALCULATOR</h1>
+    <div class="all">
+        <form action="">
+            <b><p style="color: white;">CASIO</p></b>
+            <input type="text" id="screen" placeholder="0" style="font-family: Handjet, sans-serif; font-weight: bold;">
+            <br>
+            
+            <input type="button" class="ac" value="AC" onclick="clrscrn(value)">
+            <input type="button" class="num" value="C" onclick="clearOne(value)">
+            <input type="button" class="num" value="+" onclick="btnclick(value)">
+            <br>
+            <input type="button" class="num" value="7" onclick="btnclick(value)">
+            <input type="button" class="num" value="8" onclick="btnclick(value)">
+            <input type="button" class="num" value="9" onclick="btnclick(value)">
+            <input type="button" class="num" value="/" onclick="btnclick(value)">
+            <br>
+            <input type="button" class="num" value="4" onclick="btnclick(value)">
+            <input type="button" class="num" value="5" onclick="btnclick(value)">
+            <input type="button" class="num" value="6" onclick="btnclick(value)">
+            <input type="button" class="num" value="*" onclick="btnclick(value)">
+            <br>
+            <input type="button" class="num" value="1" onclick="btnclick(value)">
+            <input type="button" class="num" value="2" onclick="btnclick(value)">
+            <input type="button" class="num" value="3" onclick="btnclick(value)">
+            <input type="button" class="num" value="-" onclick="btnclick(value)">
+            <br>
+            <input type="button" class="num" value="0" onclick="btnclick(value)">
+            <input type="button" class="num" value="." onclick="btnclick(value)">
+            <input type="button" class="num" value="00" onclick="btnclick(value)">
+            <input type="button" class="num" value="=" onclick="operation(value)" style="background-color: white">
+            <br>
+            
+
+        </form>
+    </div></center>
+    <script src="calculator.js"></script>
+</body>
+</html>
